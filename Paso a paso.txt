@@ -1,0 +1,10 @@
+Ejecuta el siguiente código en el cmd en la misma ruta donde tenes el archivo de Python (hand_udp_sender.py). Por ejemplo yo lo tengo en la carpeta nacho que esta dentro del C: y de usuarios. Así se ve mi ruta: C:\Users\nacho>
+
+py hand_udp_sender.py
+
+Debe quedar algo como:
+C:\Users\nacho>py hand_udp_sender.py
+
+Y abrirse ambas cámaras. 
+
+Ahora desde Unity hay que asignarle el código de C# a un gameobjet vacio y al darle play y poner la mano enfrente de las dos cámaras debería aparecer en la escena. En el inspector se pueden ajustar parámetros cómo donde aparece, el tamaño de los cilindros y los puntos, entre otros.
